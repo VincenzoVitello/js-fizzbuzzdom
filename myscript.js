@@ -11,7 +11,7 @@ for (let number = 1; number <= 100; number++) { //creato ciclo for con variabile
     }else{
         scatola.innerHTML += '<div class="box">' + number + '</div>' //altrimenti mostrare semplicemente il numero
     }
-    
+    console.log('incremento di:', number); 
 }
-console.log('incremento di:', number);
+
 
